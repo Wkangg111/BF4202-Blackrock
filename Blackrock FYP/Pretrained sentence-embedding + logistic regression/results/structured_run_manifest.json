@@ -1,0 +1,16 @@
+{
+  "selected_C": 1.0,
+  "threshold": 0.7031941591423143,
+  "initial_field_assumption": true,
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "features": [
+    "model_text",
+    "category",
+    "subcategory",
+    "priority"
+  ],
+  "onehot_dimensions": 55,
+  "selection": "validation average precision, then minimum validation FP subject to recall >=0.90",
+  "test_reused": true,
+  "metadata_sha256": "fbf70e3e6c008dbfc3c0f3dc1bbc5fe51641a95c8f484b69956e76112e077fc7"
+}

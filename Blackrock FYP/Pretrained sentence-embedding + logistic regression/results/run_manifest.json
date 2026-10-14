@@ -1,0 +1,41 @@
+{
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_commit": null,
+  "seed": 42,
+  "selected_C": 1.0,
+  "threshold": 0.7134385308602522,
+  "selection_metric": "validation average precision",
+  "threshold_metric": "minimum validation false positives subject to recall >= 0.90; ties prefer recall, then threshold",
+  "versions": {
+    "sentence-transformers": "6.1.0",
+    "transformers": "5.19.0",
+    "torch": "2.14.1+cpu",
+    "scikit-learn": "1.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0"
+  },
+  "python": "3.12.14",
+  "data_sha256": {
+    "train": "9df6cb31ab4dc6f2a63d6a06736ca8a2f43fb96ac44c4bdae7283355d949ba06",
+    "validation": "190666027e6e3e078717983484400e1e819bc13d353c9eeddcf5d34d17bb2d28",
+    "test": "93e242dedafa81dbabc104c5afc1e639e902af4af4b57f8b80775b0b49a02081"
+  },
+  "truncated_unique_texts": 0,
+  "encoder_frozen": true,
+  "limitations": [
+    "synthetic data",
+    "retrospective labels",
+    "initial snapshots unverified",
+    "repeated text templates",
+    "uncalibrated probabilities"
+  ],
+  "original_threshold": 0.6300394366039128,
+  "validation_min_recall": 0.9,
+  "test_reused_for_followup": true,
+  "classifier_retrained_in_followup": false
+}

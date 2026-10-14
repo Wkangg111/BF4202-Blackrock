@@ -1,0 +1,620 @@
+{
+  "sources": {
+    "tickets": {
+      "file": "Case_details_synthetic_v3.1.xlsx",
+      "sha256": "596a97494b0d47245165889896d8cd4173f499a603c1401b3da5c15e8cc5db63",
+      "sheet": "Sheet1",
+      "source_rows": 2636
+    },
+    "escalations": {
+      "file": "Escalation_data_synthetic.xlsx",
+      "sha256": "3b7ad328ae6534771d826d4cabe8e6dc5de9da0970c1e98f61f5adff9b88e5f9",
+      "sheet": "Escalation data",
+      "source_rows": 2630
+    },
+    "incidents": {
+      "file": "Incidents_synthetic.xlsx",
+      "sha256": "62cd77828468309e0a467ff206976c0a8a21d161452c67bf3509e6eb3ec19e93",
+      "sheet": "Export",
+      "source_rows": 774
+    }
+  },
+  "exact_duplicate_rows_removed": {
+    "tickets": 0,
+    "escalations": 0,
+    "incidents": 0
+  },
+  "counts": {
+    "tickets": 2636,
+    "escalation_events": 2630,
+    "incidents": 774,
+    "escalated_tickets": 2240,
+    "non_escalated_tickets": 380,
+    "unknown_tickets": 16,
+    "incident_case_links": 487,
+    "translated_ticket_descriptions": 15,
+    "removed_support_notes": 487,
+    "missing_descriptions": 117,
+    "missing_titles": 88,
+    "unusable_model_text": 1,
+    "missing_category_targets": 10,
+    "cross_boundary_event_group_tickets": 23,
+    "unique_model_texts": 1050
+  },
+  "dates": {
+    "as_of": "2024-10-12 01:18:55",
+    "as_of_inferred": true,
+    "train_end_exclusive": "2024-05-22 00:00:00",
+    "validation_end_exclusive": "2024-05-26 00:00:00",
+    "ticket_created_min": "2024-05-01 01:08:10",
+    "ticket_created_max": "2024-05-31 22:24:00"
+  },
+  "split_counts": {
+    "escalation": {
+      "train": {
+        "rows": 1797,
+        "classes": {
+          "1": 1544,
+          "0": 253
+        }
+      },
+      "validation": {
+        "rows": 341,
+        "classes": {
+          "1": 289,
+          "0": 52
+        }
+      },
+      "test": {
+        "rows": 458,
+        "classes": {
+          "1": 386,
+          "0": 72
+        }
+      }
+    },
+    "category": {
+      "train": {
+        "rows": 1803,
+        "classes": {
+          "Account Access": 491,
+          "Investor Portal": 234,
+          "Fund Accounting": 177,
+          "Workflow & Setup": 172,
+          "Analytics": 163,
+          "Reporting": 161,
+          "Data Coverage": 151,
+          "Investor Documents": 127,
+          "Training & Guidance": 85,
+          "Wealth": 42
+        }
+      },
+      "validation": {
+        "rows": 338,
+        "classes": {
+          "Account Access": 87,
+          "Investor Portal": 55,
+          "Workflow & Setup": 35,
+          "Fund Accounting": 34,
+          "Reporting": 33,
+          "Data Coverage": 27,
+          "Investor Documents": 26,
+          "Analytics": 24,
+          "Training & Guidance": 11,
+          "Wealth": 6
+        }
+      },
+      "test": {
+        "rows": 461,
+        "classes": {
+          "Account Access": 126,
+          "Investor Portal": 65,
+          "Reporting": 46,
+          "Fund Accounting": 42,
+          "Investor Documents": 42,
+          "Analytics": 38,
+          "Data Coverage": 29,
+          "Workflow & Setup": 26,
+          "Training & Guidance": 24,
+          "Wealth": 23
+        }
+      }
+    },
+    "subcategory": {
+      "train": {
+        "rows": 1803,
+        "classes": {
+          "Cannot sign in": 183,
+          "Verification code not received": 137,
+          "New user request": 94,
+          "Navigation question": 78,
+          "Document not visible": 67,
+          "Add fund to coverage": 62,
+          "NAV difference": 62,
+          "How-to question": 61,
+          "Holdings mismatch": 55,
+          "Add field value": 54,
+          "Cash flow missing": 52,
+          "Report totals incorrect": 50,
+          "Quarterly statement": 46,
+          "Remove user": 45,
+          "Instrument data question": 44,
+          "Approval workflow change": 43,
+          "Manager report chase": 42,
+          "New report request": 42,
+          "Dashboard question": 40,
+          "Stuck approval": 39,
+          "Notification emails": 38,
+          "Screen layout change": 36,
+          "Recalculation request": 35,
+          "Update contact details": 32,
+          "Duplicate transaction": 32,
+          "Distribution notice": 31,
+          "Period close question": 31,
+          "Wrong document published": 30,
+          "New portfolio set-up": 29,
+          "Export to spreadsheet": 29,
+          "Capital call notice": 28,
+          "Training session request": 24,
+          "Rename entity": 24,
+          "Remove fund from coverage": 23,
+          "Tax pack": 22,
+          "Bulk download": 21,
+          "Model assignment question": 19,
+          "Order not progressing": 18,
+          "Enhancement idea": 5
+        }
+      },
+      "validation": {
+        "rows": 338,
+        "classes": {
+          "Cannot sign in": 36,
+          "Document not visible": 18,
+          "Verification code not received": 18,
+          "Navigation question": 16,
+          "NAV difference": 16,
+          "Update contact details": 15,
+          "New user request": 15,
+          "Add fund to coverage": 13,
+          "Quarterly statement": 12,
+          "Add field value": 11,
+          "Report totals incorrect": 11,
+          "Holdings mismatch": 10,
+          "Stuck approval": 10,
+          "Notification emails": 9,
+          "Wrong document published": 9,
+          "How-to question": 9,
+          "Manager report chase": 9,
+          "Cash flow missing": 8,
+          "New report request": 8,
+          "Export to spreadsheet": 8,
+          "Approval workflow change": 7,
+          "Capital call notice": 7,
+          "Screen layout change": 7,
+          "Dashboard question": 6,
+          "Instrument data question": 6,
+          "Period close question": 5,
+          "Duplicate transaction": 5,
+          "Distribution notice": 5,
+          "Recalculation request": 4,
+          "New portfolio set-up": 4,
+          "Bulk download": 3,
+          "Remove user": 3,
+          "Model assignment question": 3,
+          "Rename entity": 3,
+          "Remove fund from coverage": 2,
+          "Tax pack": 2,
+          "Training session request": 2,
+          "Enhancement idea": 2,
+          "Order not progressing": 1
+        }
+      },
+      "test": {
+        "rows": 461,
+        "classes": {
+          "Cannot sign in": 51,
+          "Verification code not received": 25,
+          "New user request": 25,
+          "Navigation question": 24,
+          "How-to question": 20,
+          "Document not visible": 19,
+          "Quarterly statement": 17,
+          "Add fund to coverage": 14,
+          "Dashboard question": 14,
+          "Cash flow missing": 14,
+          "Report totals incorrect": 14,
+          "Update contact details": 13,
+          "Remove user": 12,
+          "Notification emails": 12,
+          "New portfolio set-up": 12,
+          "Order not progressing": 11,
+          "NAV difference": 11,
+          "Stuck approval": 10,
+          "Instrument data question": 10,
+          "New report request": 10,
+          "Holdings mismatch": 10,
+          "Capital call notice": 10,
+          "Distribution notice": 9,
+          "Period close question": 9,
+          "Approval workflow change": 8,
+          "Export to spreadsheet": 8,
+          "Duplicate transaction": 8,
+          "Add field value": 7,
+          "Manager report chase": 7,
+          "Model assignment question": 6,
+          "Enhancement idea": 6,
+          "Recalculation request": 6,
+          "Tax pack": 6,
+          "Remove fund from coverage": 5,
+          "Wrong document published": 5,
+          "Bulk download": 5,
+          "Training session request": 4,
+          "Rename entity": 3,
+          "Screen layout change": 1
+        }
+      }
+    },
+    "priority": {
+      "train": {
+        "rows": 1810,
+        "classes": {
+          "3 - Moderate": 1285,
+          "2 - High": 257,
+          "4 - Low": 244,
+          "1 - Critical": 24
+        }
+      },
+      "validation": {
+        "rows": 341,
+        "classes": {
+          "3 - Moderate": 238,
+          "4 - Low": 57,
+          "2 - High": 44,
+          "1 - Critical": 2
+        }
+      },
+      "test": {
+        "rows": 461,
+        "classes": {
+          "3 - Moderate": 333,
+          "2 - High": 68,
+          "4 - Low": 59,
+          "1 - Critical": 1
+        }
+      }
+    },
+    "team": {
+      "train": {
+        "rows": 1777,
+        "classes": {
+          "Helpdesk Tier 1": 604,
+          "Data Quality Desk": 213,
+          "Documents Desk": 193,
+          "Configuration Desk": 156,
+          "Reporting Desk": 143,
+          "Analytics Desk": 90,
+          "Helpdesk Tier 2": 90,
+          "Product Specialists": 76,
+          "Onboarding Desk": 72,
+          "Regional Desk East": 60,
+          "Regional Desk West": 42,
+          "Wealth Client Desk": 38
+        }
+      },
+      "validation": {
+        "rows": 336,
+        "classes": {
+          "Helpdesk Tier 1": 123,
+          "Documents Desk": 44,
+          "Data Quality Desk": 38,
+          "Configuration Desk": 30,
+          "Reporting Desk": 29,
+          "Onboarding Desk": 16,
+          "Analytics Desk": 15,
+          "Helpdesk Tier 2": 14,
+          "Regional Desk West": 9,
+          "Product Specialists": 9,
+          "Wealth Client Desk": 5,
+          "Regional Desk East": 4
+        }
+      },
+      "test": {
+        "rows": 451,
+        "classes": {
+          "Helpdesk Tier 1": 156,
+          "Data Quality Desk": 53,
+          "Documents Desk": 51,
+          "Reporting Desk": 40,
+          "Helpdesk Tier 2": 30,
+          "Configuration Desk": 30,
+          "Analytics Desk": 21,
+          "Wealth Client Desk": 20,
+          "Regional Desk West": 16,
+          "Product Specialists": 14,
+          "Onboarding Desk": 13,
+          "Regional Desk East": 7
+        }
+      }
+    }
+  },
+  "strict_split_counts": {
+    "escalation": {
+      "train": {
+        "rows": 1503,
+        "classes": {
+          "1": 1357,
+          "0": 146
+        }
+      },
+      "validation": {
+        "rows": 207,
+        "classes": {
+          "1": 207
+        }
+      },
+      "test": {
+        "rows": 458,
+        "classes": {
+          "1": 386,
+          "0": 72
+        }
+      }
+    },
+    "category": {
+      "train": {
+        "rows": 817,
+        "classes": {
+          "Account Access": 289,
+          "Investor Portal": 137,
+          "Analytics": 79,
+          "Investor Documents": 71,
+          "Reporting": 63,
+          "Workflow & Setup": 54,
+          "Fund Accounting": 50,
+          "Data Coverage": 34,
+          "Training & Guidance": 34,
+          "Wealth": 6
+        }
+      },
+      "validation": {
+        "rows": 0,
+        "classes": {}
+      },
+      "test": {
+        "rows": 461,
+        "classes": {
+          "Account Access": 126,
+          "Investor Portal": 65,
+          "Reporting": 46,
+          "Fund Accounting": 42,
+          "Investor Documents": 42,
+          "Analytics": 38,
+          "Data Coverage": 29,
+          "Workflow & Setup": 26,
+          "Training & Guidance": 24,
+          "Wealth": 23
+        }
+      }
+    },
+    "subcategory": {
+      "train": {
+        "rows": 817,
+        "classes": {
+          "Cannot sign in": 105,
+          "Verification code not received": 85,
+          "New user request": 52,
+          "Document not visible": 47,
+          "Navigation question": 44,
+          "How-to question": 32,
+          "Remove user": 27,
+          "Holdings mismatch": 26,
+          "Quarterly statement": 25,
+          "Instrument data question": 21,
+          "Report totals incorrect": 21,
+          "Update contact details": 20,
+          "Recalculation request": 20,
+          "Wrong document published": 19,
+          "NAV difference": 19,
+          "Notification emails": 18,
+          "Distribution notice": 18,
+          "Dashboard question": 17,
+          "Add field value": 17,
+          "Capital call notice": 17,
+          "Export to spreadsheet": 16,
+          "Manager report chase": 15,
+          "Stuck approval": 15,
+          "Cash flow missing": 14,
+          "Approval workflow change": 14,
+          "New portfolio set-up": 12,
+          "Tax pack": 11,
+          "Add fund to coverage": 11,
+          "New report request": 9,
+          "Period close question": 9,
+          "Bulk download": 9,
+          "Screen layout change": 8,
+          "Duplicate transaction": 8,
+          "Rename entity": 7,
+          "Order not progressing": 4,
+          "Model assignment question": 2,
+          "Training session request": 2,
+          "Remove fund from coverage": 1
+        }
+      },
+      "validation": {
+        "rows": 0,
+        "classes": {}
+      },
+      "test": {
+        "rows": 461,
+        "classes": {
+          "Cannot sign in": 51,
+          "Verification code not received": 25,
+          "New user request": 25,
+          "Navigation question": 24,
+          "How-to question": 20,
+          "Document not visible": 19,
+          "Quarterly statement": 17,
+          "Add fund to coverage": 14,
+          "Dashboard question": 14,
+          "Cash flow missing": 14,
+          "Report totals incorrect": 14,
+          "Update contact details": 13,
+          "Remove user": 12,
+          "Notification emails": 12,
+          "New portfolio set-up": 12,
+          "Order not progressing": 11,
+          "NAV difference": 11,
+          "Stuck approval": 10,
+          "Instrument data question": 10,
+          "New report request": 10,
+          "Holdings mismatch": 10,
+          "Capital call notice": 10,
+          "Distribution notice": 9,
+          "Period close question": 9,
+          "Approval workflow change": 8,
+          "Export to spreadsheet": 8,
+          "Duplicate transaction": 8,
+          "Add field value": 7,
+          "Manager report chase": 7,
+          "Model assignment question": 6,
+          "Enhancement idea": 6,
+          "Recalculation request": 6,
+          "Tax pack": 6,
+          "Remove fund from coverage": 5,
+          "Wrong document published": 5,
+          "Bulk download": 5,
+          "Training session request": 4,
+          "Rename entity": 3,
+          "Screen layout change": 1
+        }
+      }
+    },
+    "priority": {
+      "train": {
+        "rows": 820,
+        "classes": {
+          "3 - Moderate": 588,
+          "2 - High": 112,
+          "4 - Low": 106,
+          "1 - Critical": 14
+        }
+      },
+      "validation": {
+        "rows": 0,
+        "classes": {}
+      },
+      "test": {
+        "rows": 461,
+        "classes": {
+          "3 - Moderate": 333,
+          "2 - High": 68,
+          "4 - Low": 59,
+          "1 - Critical": 1
+        }
+      }
+    },
+    "team": {
+      "train": {
+        "rows": 802,
+        "classes": {
+          "Helpdesk Tier 1": 367,
+          "Documents Desk": 119,
+          "Reporting Desk": 67,
+          "Data Quality Desk": 63,
+          "Analytics Desk": 49,
+          "Configuration Desk": 45,
+          "Helpdesk Tier 2": 37,
+          "Regional Desk East": 24,
+          "Regional Desk West": 17,
+          "Wealth Client Desk": 6,
+          "Onboarding Desk": 5,
+          "Product Specialists": 3
+        }
+      },
+      "validation": {
+        "rows": 0,
+        "classes": {}
+      },
+      "test": {
+        "rows": 451,
+        "classes": {
+          "Helpdesk Tier 1": 156,
+          "Data Quality Desk": 53,
+          "Documents Desk": 51,
+          "Reporting Desk": 40,
+          "Helpdesk Tier 2": 30,
+          "Configuration Desk": 30,
+          "Analytics Desk": 21,
+          "Wealth Client Desk": 20,
+          "Regional Desk West": 16,
+          "Product Specialists": 14,
+          "Onboarding Desk": 13,
+          "Regional Desk East": 7
+        }
+      }
+    }
+  },
+  "primary_split_mode": "retrospective: creation ordered; all labels observed by as-of, not necessarily by each historical boundary",
+  "text_overlap": {
+    "escalation/train": {
+      "exact_text_seen_in_earlier_partition": 0
+    },
+    "escalation/validation": {
+      "exact_text_seen_in_earlier_partition": 243
+    },
+    "escalation/test": {
+      "exact_text_seen_in_earlier_partition": 361
+    },
+    "category/train": {
+      "exact_text_seen_in_earlier_partition": 0
+    },
+    "category/validation": {
+      "exact_text_seen_in_earlier_partition": 243
+    },
+    "category/test": {
+      "exact_text_seen_in_earlier_partition": 362
+    },
+    "subcategory/train": {
+      "exact_text_seen_in_earlier_partition": 0
+    },
+    "subcategory/validation": {
+      "exact_text_seen_in_earlier_partition": 243
+    },
+    "subcategory/test": {
+      "exact_text_seen_in_earlier_partition": 362
+    },
+    "priority/train": {
+      "exact_text_seen_in_earlier_partition": 0
+    },
+    "priority/validation": {
+      "exact_text_seen_in_earlier_partition": 244
+    },
+    "priority/test": {
+      "exact_text_seen_in_earlier_partition": 364
+    },
+    "team/train": {
+      "exact_text_seen_in_earlier_partition": 0
+    },
+    "team/validation": {
+      "exact_text_seen_in_earlier_partition": 238
+    },
+    "team/test": {
+      "exact_text_seen_in_earlier_partition": 354
+    }
+  },
+  "issue_counts": {
+    "raised_after_resolution_before_closure": 14,
+    "empty_model_text": 1
+  },
+  "limitations": [
+    "Synthetic data; performance does not establish production accuracy.",
+    "Only one month of ticket arrivals; class balance is not representative by assumption.",
+    "Primary splits are RETROSPECTIVE. They use labels known by the final as-of and cannot establish what could have been trained or tuned at the original boundaries. strict_splits enforce that stronger timing rule, but are not viable for all tasks with this short dataset.",
+    "No verified initial text/field history. Default models should use model_text only and acknowledge the snapshot assumption.",
+    "Category, priority and team are reviewed targets. Their latest Updated time is used conservatively as a label-availability proxy. Unresolved team labels are excluded.",
+    "No incident publication timestamps. Default incident reference rows are not eligible for time-safe retrieval until availability is supplied.",
+    "Incident links are associations with prior incidents, not future-incident outcomes.",
+    "Time split is purged of incident/problem groups spanning boundaries. Repeated synthetic texts remain; unseen_text subsets are supplied separately.",
+    "Do not concatenate split files, include targets as features, or fit text transforms on validation/test data."
+  ]
+}

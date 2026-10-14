@@ -1,0 +1,202 @@
+﻿task,partition,target,rows
+escalation,train,1,1544
+escalation,train,0,253
+escalation,validation,1,289
+escalation,validation,0,52
+escalation,test,1,386
+escalation,test,0,72
+category,train,Account Access,491
+category,train,Investor Portal,234
+category,train,Fund Accounting,177
+category,train,Workflow & Setup,172
+category,train,Analytics,163
+category,train,Reporting,161
+category,train,Data Coverage,151
+category,train,Investor Documents,127
+category,train,Training & Guidance,85
+category,train,Wealth,42
+category,validation,Account Access,87
+category,validation,Investor Portal,55
+category,validation,Workflow & Setup,35
+category,validation,Fund Accounting,34
+category,validation,Reporting,33
+category,validation,Data Coverage,27
+category,validation,Investor Documents,26
+category,validation,Analytics,24
+category,validation,Training & Guidance,11
+category,validation,Wealth,6
+category,test,Account Access,126
+category,test,Investor Portal,65
+category,test,Reporting,46
+category,test,Fund Accounting,42
+category,test,Investor Documents,42
+category,test,Analytics,38
+category,test,Data Coverage,29
+category,test,Workflow & Setup,26
+category,test,Training & Guidance,24
+category,test,Wealth,23
+subcategory,train,Cannot sign in,183
+subcategory,train,Verification code not received,137
+subcategory,train,New user request,94
+subcategory,train,Navigation question,78
+subcategory,train,Document not visible,67
+subcategory,train,Add fund to coverage,62
+subcategory,train,NAV difference,62
+subcategory,train,How-to question,61
+subcategory,train,Holdings mismatch,55
+subcategory,train,Add field value,54
+subcategory,train,Cash flow missing,52
+subcategory,train,Report totals incorrect,50
+subcategory,train,Quarterly statement,46
+subcategory,train,Remove user,45
+subcategory,train,Instrument data question,44
+subcategory,train,Approval workflow change,43
+subcategory,train,Manager report chase,42
+subcategory,train,New report request,42
+subcategory,train,Dashboard question,40
+subcategory,train,Stuck approval,39
+subcategory,train,Notification emails,38
+subcategory,train,Screen layout change,36
+subcategory,train,Recalculation request,35
+subcategory,train,Update contact details,32
+subcategory,train,Duplicate transaction,32
+subcategory,train,Distribution notice,31
+subcategory,train,Period close question,31
+subcategory,train,Wrong document published,30
+subcategory,train,New portfolio set-up,29
+subcategory,train,Export to spreadsheet,29
+subcategory,train,Capital call notice,28
+subcategory,train,Training session request,24
+subcategory,train,Rename entity,24
+subcategory,train,Remove fund from coverage,23
+subcategory,train,Tax pack,22
+subcategory,train,Bulk download,21
+subcategory,train,Model assignment question,19
+subcategory,train,Order not progressing,18
+subcategory,train,Enhancement idea,5
+subcategory,validation,Cannot sign in,36
+subcategory,validation,Document not visible,18
+subcategory,validation,Verification code not received,18
+subcategory,validation,Navigation question,16
+subcategory,validation,NAV difference,16
+subcategory,validation,Update contact details,15
+subcategory,validation,New user request,15
+subcategory,validation,Add fund to coverage,13
+subcategory,validation,Quarterly statement,12
+subcategory,validation,Add field value,11
+subcategory,validation,Report totals incorrect,11
+subcategory,validation,Holdings mismatch,10
+subcategory,validation,Stuck approval,10
+subcategory,validation,Notification emails,9
+subcategory,validation,Wrong document published,9
+subcategory,validation,How-to question,9
+subcategory,validation,Manager report chase,9
+subcategory,validation,Cash flow missing,8
+subcategory,validation,New report request,8
+subcategory,validation,Export to spreadsheet,8
+subcategory,validation,Approval workflow change,7
+subcategory,validation,Capital call notice,7
+subcategory,validation,Screen layout change,7
+subcategory,validation,Dashboard question,6
+subcategory,validation,Instrument data question,6
+subcategory,validation,Period close question,5
+subcategory,validation,Duplicate transaction,5
+subcategory,validation,Distribution notice,5
+subcategory,validation,Recalculation request,4
+subcategory,validation,New portfolio set-up,4
+subcategory,validation,Bulk download,3
+subcategory,validation,Remove user,3
+subcategory,validation,Model assignment question,3
+subcategory,validation,Rename entity,3
+subcategory,validation,Remove fund from coverage,2
+subcategory,validation,Tax pack,2
+subcategory,validation,Training session request,2
+subcategory,validation,Enhancement idea,2
+subcategory,validation,Order not progressing,1
+subcategory,test,Cannot sign in,51
+subcategory,test,Verification code not received,25
+subcategory,test,New user request,25
+subcategory,test,Navigation question,24
+subcategory,test,How-to question,20
+subcategory,test,Document not visible,19
+subcategory,test,Quarterly statement,17
+subcategory,test,Add fund to coverage,14
+subcategory,test,Dashboard question,14
+subcategory,test,Cash flow missing,14
+subcategory,test,Report totals incorrect,14
+subcategory,test,Update contact details,13
+subcategory,test,Remove user,12
+subcategory,test,Notification emails,12
+subcategory,test,New portfolio set-up,12
+subcategory,test,Order not progressing,11
+subcategory,test,NAV difference,11
+subcategory,test,Stuck approval,10
+subcategory,test,Instrument data question,10
+subcategory,test,New report request,10
+subcategory,test,Holdings mismatch,10
+subcategory,test,Capital call notice,10
+subcategory,test,Distribution notice,9
+subcategory,test,Period close question,9
+subcategory,test,Approval workflow change,8
+subcategory,test,Export to spreadsheet,8
+subcategory,test,Duplicate transaction,8
+subcategory,test,Add field value,7
+subcategory,test,Manager report chase,7
+subcategory,test,Model assignment question,6
+subcategory,test,Enhancement idea,6
+subcategory,test,Recalculation request,6
+subcategory,test,Tax pack,6
+subcategory,test,Remove fund from coverage,5
+subcategory,test,Wrong document published,5
+subcategory,test,Bulk download,5
+subcategory,test,Training session request,4
+subcategory,test,Rename entity,3
+subcategory,test,Screen layout change,1
+priority,train,3 - Moderate,1285
+priority,train,2 - High,257
+priority,train,4 - Low,244
+priority,train,1 - Critical,24
+priority,validation,3 - Moderate,238
+priority,validation,4 - Low,57
+priority,validation,2 - High,44
+priority,validation,1 - Critical,2
+priority,test,3 - Moderate,333
+priority,test,2 - High,68
+priority,test,4 - Low,59
+priority,test,1 - Critical,1
+team,train,Helpdesk Tier 1,604
+team,train,Data Quality Desk,213
+team,train,Documents Desk,193
+team,train,Configuration Desk,156
+team,train,Reporting Desk,143
+team,train,Analytics Desk,90
+team,train,Helpdesk Tier 2,90
+team,train,Product Specialists,76
+team,train,Onboarding Desk,72
+team,train,Regional Desk East,60
+team,train,Regional Desk West,42
+team,train,Wealth Client Desk,38
+team,validation,Helpdesk Tier 1,123
+team,validation,Documents Desk,44
+team,validation,Data Quality Desk,38
+team,validation,Configuration Desk,30
+team,validation,Reporting Desk,29
+team,validation,Onboarding Desk,16
+team,validation,Analytics Desk,15
+team,validation,Helpdesk Tier 2,14
+team,validation,Regional Desk West,9
+team,validation,Product Specialists,9
+team,validation,Wealth Client Desk,5
+team,validation,Regional Desk East,4
+team,test,Helpdesk Tier 1,156
+team,test,Data Quality Desk,53
+team,test,Documents Desk,51
+team,test,Reporting Desk,40
+team,test,Helpdesk Tier 2,30
+team,test,Configuration Desk,30
+team,test,Analytics Desk,21
+team,test,Wealth Client Desk,20
+team,test,Regional Desk West,16
+team,test,Product Specialists,14
+team,test,Onboarding Desk,13
+team,test,Regional Desk East,7

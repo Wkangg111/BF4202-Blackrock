@@ -1,0 +1,25 @@
+{
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "seed": 42,
+  "grouping": [
+    "exact model_text",
+    "event_group_id",
+    "transitive connected components"
+  ],
+  "n_tickets": 2596,
+  "n_groups": 811,
+  "largest_group": 214,
+  "C_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "min_inner_recall": 0.9,
+  "initial_fields_assumed": true,
+  "dates_mixed": true,
+  "exploratory_reused_data": true,
+  "selection": "inner OOF AP then minimum inner OOF FP subject to recall >= 0.90"
+}

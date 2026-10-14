@@ -1,0 +1,55 @@
+{
+  "default_input_columns": [
+    "model_text"
+  ],
+  "identifier_columns": [
+    "ticket_id",
+    "created_at",
+    "event_group_id",
+    "text_group_id"
+  ],
+  "initial_text_status": "Assumed request-time candidate after removing known support annotations; not a verified initial snapshot.",
+  "optional_structured_fields_enabled": false,
+  "optional_escalation_inputs": [],
+  "never_use_for_receipt_prediction": [
+    "reported_escalation",
+    "latest_escalation_id",
+    "latest_escalation_type",
+    "reported_escalation_count",
+    "incident_id",
+    "closed_at",
+    "resolved_at",
+    "updated_at",
+    "first_response_at",
+    "assignment_group",
+    "approval_status",
+    "root_cause_1",
+    "root_cause_2",
+    "root_cause_3"
+  ],
+  "task_target_exclusions": {
+    "category": [
+      "category",
+      "subcategory",
+      "value"
+    ],
+    "subcategory": [
+      "subcategory",
+      "value"
+    ],
+    "priority": [
+      "priority"
+    ],
+    "team": [
+      "assignment_group"
+    ]
+  },
+  "fit_after_split": [
+    "TF-IDF vocabulary/IDF",
+    "encoders",
+    "scalers",
+    "feature selection",
+    "oversampling"
+  ],
+  "incident_retrieval_rule": "Require available_at < ticket.created_at. Unknown availability is ineligible. Start Time alone is not a publication timestamp."
+}

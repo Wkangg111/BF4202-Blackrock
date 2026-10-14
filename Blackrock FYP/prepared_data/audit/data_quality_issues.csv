@@ -1,0 +1,16 @@
+﻿source,record_id,severity,issue,detail
+escalations,ESX0500235,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0500421,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0500423,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0500741,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0500835,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0501018,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0501147,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0501182,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0501413,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0501637,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0501751,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0501752,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0502243,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+escalations,ESX0502373,warning,raised_after_resolution_before_closure,Retained: all raised escalations count.
+tickets,TKT0100334,error,empty_model_text,Excluded from model splits.
