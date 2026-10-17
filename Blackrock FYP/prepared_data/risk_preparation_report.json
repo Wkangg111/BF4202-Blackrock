@@ -1,0 +1,43 @@
+{
+  "target": "escalation OR incident involvement",
+  "labels": {
+    "positive": 2293,
+    "negative": 328,
+    "unknown": 15
+  },
+  "splits": {
+    "train": {
+      "tickets": 1797,
+      "positive": 1572,
+      "negative": 225
+    },
+    "validation": {
+      "tickets": 341,
+      "positive": 290,
+      "negative": 51
+    },
+    "test": {
+      "tickets": 459,
+      "positive": 407,
+      "negative": 52
+    }
+  },
+  "positive_reasons": {
+    "escalation_only": 1806,
+    "escalation_and_incident": 434,
+    "incident_only": 53
+  },
+  "features": [
+    "model_text"
+  ],
+  "incident_text_used_as_feature": false,
+  "incident_link_timestamp_available": false,
+  "timing": "Retrospective associations present in export; no strict combined historical splits created.",
+  "limitations": [
+    "Synthetic data",
+    "Initial text assumed, not verified",
+    "Absence of a link treated as no incident only for closed tickets; export completeness assumed",
+    "Incident associations are not necessarily future incidents",
+    "Old escalation-only results do not evaluate this target"
+  ]
+}

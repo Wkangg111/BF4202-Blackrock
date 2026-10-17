@@ -1,0 +1,16 @@
+[
+  {
+    "model": "tfidf_lr",
+    "selected_C": 1.0,
+    "threshold": 0.7506048886565183,
+    "validation_AP": 0.9381192956599321,
+    "validation_recall": 0.903448275862069
+  },
+  {
+    "model": "embedding_lr",
+    "selected_C": 1.0,
+    "threshold": 0.7396641476835105,
+    "validation_AP": 0.9284148334420499,
+    "validation_recall": 0.9103448275862069
+  }
+]
