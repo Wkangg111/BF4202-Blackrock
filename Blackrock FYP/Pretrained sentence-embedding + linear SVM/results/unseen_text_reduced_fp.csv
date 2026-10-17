@@ -1,0 +1,2 @@
+model,split,n,threshold,accuracy,balanced_accuracy,precision,recall,f1,average_precision,roc_auc,alert_rate,tn,fp,fn,tp
+svm_recall90_threshold,test_unseen_text,151,0.40190205572223814,0.8543046357615894,0.5560439560439561,0.875,0.9692307692307692,0.9197080291970803,0.9107589170977302,0.6690476190476191,0.9536423841059603,3,18,4,126

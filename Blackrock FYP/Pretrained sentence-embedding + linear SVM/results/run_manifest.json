@@ -1,0 +1,37 @@
+{
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "ENCODER_BACKEND": "STAND-IN: tfidf+svd (NOT sentence embeddings)",
+  "seed": 42,
+  "classifier": "sklearn.svm.LinearSVC(squared_hinge)",
+  "selected_C_text_only": 0.1,
+  "selected_C_structured": 0.1,
+  "threshold_f1": 0.18612713397541103,
+  "threshold_recall90_text_only": 0.40190205572223814,
+  "threshold_recall90_structured": 0.333193863163043,
+  "selection_metric": "validation average precision",
+  "min_recall_policy": 0.9,
+  "versions": {
+    "sentence-transformers": null,
+    "transformers": null,
+    "torch": null,
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0",
+    "scipy": "1.18.1"
+  },
+  "python": "3.13.16",
+  "data_sha256": {
+    "train": "f517414bd3852add84863280ec3307c8fef11b8ab1579cdcdc4e86b03d89b53a",
+    "validation": "82d5add82f968772b49be60353a7ba54ecead6c127ecffa428eec30b0c378fc7",
+    "test": "96ef201058499448d8372bc26fdc768b31a2aa7ea6f91bb150d768323bc6b9e3"
+  },
+  "limitations": [
+    "synthetic data",
+    "retrospective labels",
+    "initial snapshots unverified",
+    "repeated text templates",
+    "scores are SVM margins (uncalibrated)"
+  ]
+}
