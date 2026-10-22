@@ -1,0 +1,3 @@
+ticket_id,short_description,description,predicted_category,predicted_subcategory,pair_confidence
+NEW001,Instrument data looks incorrect,The coupon and maturity for an instrument look incorrect. Please verify.,Analytics,Instrument data question,0.9951176155285804
+NEW002,Model assignment question,How can we assign one model to a group of client accounts?,Wealth,Model assignment question,0.9969699216797835
