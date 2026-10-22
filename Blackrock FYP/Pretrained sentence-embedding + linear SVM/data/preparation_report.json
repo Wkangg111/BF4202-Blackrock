@@ -1,0 +1,37 @@
+{
+  "source_cases": 2636,
+  "dropped_no_text": 1,
+  "dropped_group_straddles_split": 10,
+  "eligible_tickets": 2625,
+  "partitions": {
+    "train": {
+      "tickets": 1844,
+      "escalated": 1573,
+      "created_min": "2024-05-01 01:08:10",
+      "created_max": "2024-05-22 10:06:45"
+    },
+    "validation": {
+      "tickets": 338,
+      "escalated": 286,
+      "created_min": "2024-05-22 10:08:22",
+      "created_max": "2024-05-26 08:56:25"
+    },
+    "test": {
+      "tickets": 443,
+      "escalated": 371,
+      "created_min": "2024-05-26 09:13:56",
+      "created_max": "2024-05-31 22:24:00"
+    }
+  },
+  "unique_model_texts": 1173,
+  "excluded_fields": [
+    "assignment group",
+    "escalation number/type/count",
+    "incident/problem linkage text",
+    "client code",
+    "state",
+    "resolution timestamps",
+    "client support tier",
+    "peer group"
+  ]
+}
