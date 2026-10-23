@@ -1,0 +1,11 @@
+{
+  "threshold": 0.9,
+  "original_groups": 803,
+  "new_groups": 103,
+  "unique_texts": 1046,
+  "similarity_edges": 6421,
+  "largest_group_tickets": 2063,
+  "largest_group_fraction": 0.7859047619047619,
+  "rule": "cosine >= threshold, union with original groups, transitive connected components",
+  "status": "Exploratory semantic proxy, not verified source template IDs. Threshold fixed before evaluation, not selected for accuracy."
+}

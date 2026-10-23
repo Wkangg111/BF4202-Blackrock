@@ -1,0 +1,40 @@
+target_category,target_subcategory,pair_label,tickets,groups
+Account Access,Cannot sign in,"[""Account Access"", ""Cannot sign in""]",271,9
+Account Access,New user request,"[""Account Access"", ""New user request""]",135,6
+Account Access,Remove user,"[""Account Access"", ""Remove user""]",60,3
+Account Access,Update contact details,"[""Account Access"", ""Update contact details""]",60,5
+Account Access,Verification code not received,"[""Account Access"", ""Verification code not received""]",180,7
+Analytics,Holdings mismatch,"[""Analytics"", ""Holdings mismatch""]",75,5
+Analytics,Instrument data question,"[""Analytics"", ""Instrument data question""]",60,5
+Analytics,New portfolio set-up,"[""Analytics"", ""New portfolio set-up""]",45,3
+Analytics,Recalculation request,"[""Analytics"", ""Recalculation request""]",45,2
+Data Coverage,Add fund to coverage,"[""Data Coverage"", ""Add fund to coverage""]",90,3
+Data Coverage,Manager report chase,"[""Data Coverage"", ""Manager report chase""]",60,2
+Data Coverage,Remove fund from coverage,"[""Data Coverage"", ""Remove fund from coverage""]",30,2
+Data Coverage,Rename entity,"[""Data Coverage"", ""Rename entity""]",30,2
+Fund Accounting,Cash flow missing,"[""Fund Accounting"", ""Cash flow missing""]",75,5
+Fund Accounting,Duplicate transaction,"[""Fund Accounting"", ""Duplicate transaction""]",45,3
+Fund Accounting,NAV difference,"[""Fund Accounting"", ""NAV difference""]",90,3
+Fund Accounting,Period close question,"[""Fund Accounting"", ""Period close question""]",45,2
+Investor Documents,Capital call notice,"[""Investor Documents"", ""Capital call notice""]",45,2
+Investor Documents,Distribution notice,"[""Investor Documents"", ""Distribution notice""]",45,3
+Investor Documents,Quarterly statement,"[""Investor Documents"", ""Quarterly statement""]",75,4
+Investor Documents,Tax pack,"[""Investor Documents"", ""Tax pack""]",30,2
+Investor Portal,Bulk download,"[""Investor Portal"", ""Bulk download""]",30,2
+Investor Portal,Document not visible,"[""Investor Portal"", ""Document not visible""]",105,7
+Investor Portal,Navigation question,"[""Investor Portal"", ""Navigation question""]",120,7
+Investor Portal,Notification emails,"[""Investor Portal"", ""Notification emails""]",60,2
+Investor Portal,Wrong document published,"[""Investor Portal"", ""Wrong document published""]",45,3
+Reporting,Dashboard question,"[""Reporting"", ""Dashboard question""]",60,2
+Reporting,Export to spreadsheet,"[""Reporting"", ""Export to spreadsheet""]",45,5
+Reporting,New report request,"[""Reporting"", ""New report request""]",60,28
+Reporting,Report totals incorrect,"[""Reporting"", ""Report totals incorrect""]",75,6
+Training & Guidance,How-to question,"[""Training & Guidance"", ""How-to question""]",90,20
+Training & Guidance,Training session request,"[""Training & Guidance"", ""Training session request""]",30,3
+Wealth,Enhancement idea,"[""Wealth"", ""Enhancement idea""]",14,1
+Wealth,Model assignment question,"[""Wealth"", ""Model assignment question""]",30,2
+Wealth,Order not progressing,"[""Wealth"", ""Order not progressing""]",30,2
+Workflow & Setup,Add field value,"[""Workflow & Setup"", ""Add field value""]",75,13
+Workflow & Setup,Approval workflow change,"[""Workflow & Setup"", ""Approval workflow change""]",60,2
+Workflow & Setup,Screen layout change,"[""Workflow & Setup"", ""Screen layout change""]",45,8
+Workflow & Setup,Stuck approval,"[""Workflow & Setup"", ""Stuck approval""]",60,5

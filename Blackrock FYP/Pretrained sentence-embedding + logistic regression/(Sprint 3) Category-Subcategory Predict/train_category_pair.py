@@ -88,15 +88,18 @@ def metrics(frame):
         result[level+'_weighted_f1']=f1_score(frame[truth], frame[pred], average='weighted',zero_division=0)
     return result
 
-def run(root=ROOT, output=None):
+def run(root=ROOT, output=None, grouping_threshold=None, preserve_event_links=True):
     out=Path(output) if output else root/'category_pair_model/results'
     out.mkdir(parents=True,exist_ok=True)
     df,excluded=prepare_data(root)
+    X=encode_texts(df.model_text.tolist(),root)
+    if grouping_threshold is not None:
+        from template_groups import build_template_groups
+        df = build_template_groups(df, X, grouping_threshold, out, preserve_event_links=preserve_event_links)
     df.to_csv(out/'prepared_pairs.csv',index=False);excluded.to_csv(out/'excluded_rows.csv',index=False)
     support=df.groupby(['target_category','target_subcategory','pair_label']).agg(tickets=('ticket_id','size'),groups=('evaluation_group','nunique')).reset_index()
     support.to_csv(out/'pair_support.csv',index=False)
     print(f'{len(df)} tickets; {df.pair_label.nunique()} pairs; {df.evaluation_group.nunique()} connected groups',flush=True)
-    X=encode_texts(df.model_text.tolist(),root)
     y=df.pair_label.to_numpy(); groups=df.evaluation_group.to_numpy()
     folds=grouped_folds(y,groups,5,42)
     oof=df.copy();oof['predicted_pair']='';oof['fold']=0;oof['pair_confidence']=np.nan
@@ -139,6 +142,9 @@ def run(root=ROOT, output=None):
     restored=joblib.load(out/'category_pair_model.joblib')
     assert np.allclose(model.predict_proba(X[:10]),restored['classifier'].predict_proba(X[:10]))
     manifest={'method':'5 outer / 3 inner StratifiedGroupKFold','seed':42,'selection_metric':'pooled inner OOF pair macro F1','input':'prepared model_text only','encoder':'all-MiniLM-L6-v2, frozen, normalized, max length 256','eligible_tickets':len(df),'excluded_tickets':len(excluded),'pairs':int(df.pair_label.nunique()),'groups':int(df.evaluation_group.nunique()),'final_C':c,'pair_target_hash':hashlib.sha256('\n'.join(y).encode()).hexdigest(),'limitations':['Synthetic data: not evidence of real-world accuracy.','Reviewed retrospective labels and assumed initial text.','Unseen pairs cannot be predicted; held-out unseen pairs remain in evaluation.','Grouped evaluation does not measure future temporal drift.','Confidence is uncalibrated; no escalation alert threshold is used.']}
+    manifest['preserve_event_links'] = preserve_event_links
+    manifest['grouping_threshold'] = grouping_threshold
+    manifest['grouping'] = ('existing links plus cosine connected components' if preserve_event_links else 'exact text plus cosine connected components; event links ignored') if grouping_threshold is not None else 'exact text plus event links'
     (out/'run_manifest.json').write_text(json.dumps(manifest,indent=2))
     print(pd.read_csv(out/'grouped_metrics.csv').round(4).to_string(index=False),flush=True)
     return summary
