@@ -1,4 +1,0 @@
-split,tickets,escalated,not_escalated,escalation_rate
-train,1797,1544,253,0.85920979410128
-validation,341,289,52,0.8475073313782991
-test,458,386,72,0.8427947598253275
