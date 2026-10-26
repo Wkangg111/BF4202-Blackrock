@@ -1,0 +1,17 @@
+encoder,C,class_weight,val_subcat_accuracy,val_subcat_macro_f1,val_category_accuracy
+tfidf,0.03,None,1.0,1.0,1.0
+tfidf,0.1,None,1.0,1.0,1.0
+tfidf,0.1,balanced,1.0,1.0,1.0
+tfidf,0.3,None,1.0,1.0,1.0
+tfidf,0.3,balanced,1.0,1.0,1.0
+tfidf,1.0,None,1.0,1.0,1.0
+tfidf,1.0,balanced,1.0,1.0,1.0
+tfidf,3.0,None,1.0,1.0,1.0
+tfidf,3.0,balanced,1.0,1.0,1.0
+tfidf,10.0,None,1.0,1.0,1.0
+tfidf,10.0,balanced,1.0,1.0,1.0
+tfidf,30.0,None,1.0,1.0,1.0
+tfidf,30.0,balanced,1.0,1.0,1.0
+tfidf,0.01,None,0.9997324056729997,0.9995828674096316,0.9997324056729997
+tfidf,0.01,balanced,0.9997324056729997,0.9995828674096316,0.9997324056729997
+tfidf,0.03,balanced,0.9997324056729997,0.9995828674096316,0.9997324056729997

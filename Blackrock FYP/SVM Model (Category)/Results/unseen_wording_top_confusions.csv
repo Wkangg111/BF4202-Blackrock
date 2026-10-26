@@ -1,0 +1,68 @@
+true,pred,count
+Cash balance query,Client account query,668
+Benchmark data delay,Benchmark addition,409
+Instrument attribute correction,Report totals incorrect,383
+Instrument attribute correction,Price query,377
+Holdings mismatch,Performance figure question,375
+Holdings mismatch,NAV difference,358
+Risk figure question,Change request,328
+Rule result query,Cash balance query,323
+Position break,New instrument request,318
+File not received,Scheduled report not received,317
+Performance figure question,NAV difference,316
+New instrument request,Price query,314
+NAV difference,Cash flow missing,308
+NAV difference,Holdings mismatch,308
+Performance figure question,Holdings mismatch,303
+Rule result query,New rule request,303
+Position break,Cash break,285
+Benchmark addition,Benchmark data delay,271
+How-to question,Position break,267
+Scheduled report not received,New report request,250
+Cash break,Cash balance query,248
+Cash break,Position break,244
+Corporate event query,Allocation query,241
+Allocation query,Order not progressing,238
+Corporate event query,Price query,228
+New user,Client account query,219
+Recalculation request,Price query,217
+Trade amendment,Order not progressing,215
+New report request,New rule request,214
+Document not visible,Documentation request,210
+Document not visible,Performance figure question,203
+Break ageing question,Position break,199
+Fund report chase,Scheduled report not received,189
+Statement query,Client account query,189
+Recalculation request,Holdings mismatch,186
+Model assignment,Model portfolio question,176
+Cash flow missing,Document not visible,174
+New rule request,New user,172
+Fund report chase,Valuation correction,170
+Cash flow missing,Distribution notice,168
+New rule request,Rule result query,168
+Statement query,Distribution notice,157
+Period close question,Go-live readiness,141
+Remove user,Role change,140
+File layout change,Screen layout change,134
+Role change,Change request,133
+Remove user,Screen layout change,127
+What-if analysis question,Rule result query,119
+What-if analysis question,Model portfolio question,117
+Proposal question,Training session request,112
+Duplicate transaction,User details update,111
+Duplicate transaction,File not received,110
+Capital call notice,Statement query,109
+Valuation correction,Report totals incorrect,105
+Screen layout change,File layout change,102
+Training session request,Change request,96
+Proposal question,How-to question,92
+Onboarding milestone,User details update,91
+Documentation request,New user,91
+Client account query,Field value addition,89
+Client account query,Cash balance query,87
+Distribution notice,Scheduled report not received,86
+Training session request,Field value addition,86
+Onboarding milestone,Rule exception review,83
+User details update,New user,75
+Distribution notice,Cash flow missing,73
+Go-live readiness,Period close question,52

@@ -1,0 +1,8 @@
+model,split,n,subcat_accuracy,subcat_macro_f1,category_accuracy,category_macro_f1,subcat_top3_accuracy,threshold,auto_route_coverage,auto_route_accuracy
+majority_class,test,4888,0.050122749590834695,0.0016179787153249,0.1362520458265139,0.014107479506026394,,,,
+template_lookup,test,4888,0.9869067103109657,0.9911513093717655,0.9875204582651391,0.9907455151079207,,,,
+tfidf_svm,test,4888,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0
+tfidf_svm,test[service_form],423,1.0,1.0,1.0,1.0,,,,
+tfidf_svm,test[japanese],86,1.0,1.0,1.0,1.0,,,,
+tfidf_svm,test[email],4379,1.0,1.0,1.0,1.0,,,,
+tfidf_svm_flat_category,test,4888,,,1.0,1.0,,,,
