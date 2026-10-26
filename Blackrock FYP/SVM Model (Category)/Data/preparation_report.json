@@ -1,0 +1,49 @@
+{
+  "source_tickets": 29350,
+  "labelled_tickets": 28750,
+  "unlabelled_tickets": 600,
+  "dropped_labelled_no_text": 0,
+  "categories": 17,
+  "subcategories": 59,
+  "service_form_tickets_label_lines_removed": 2425,
+  "japanese_tickets": 558,
+  "short_templates": 200,
+  "body_templates": 666,
+  "partitions": {
+    "train": {
+      "tickets": 20125,
+      "subcategories_present": 59,
+      "created_min": "2024-01-02 00:12:47",
+      "created_max": "2024-05-08 01:56:07",
+      "short_template_seen_in_train": 1.0
+    },
+    "validation": {
+      "tickets": 3737,
+      "subcategories_present": 59,
+      "created_min": "2024-05-08 02:13:04",
+      "created_max": "2024-05-31 01:27:06",
+      "short_template_seen_in_train": 1.0
+    },
+    "test": {
+      "tickets": 4888,
+      "subcategories_present": 59,
+      "created_min": "2024-05-31 01:27:57",
+      "created_max": "2024-06-29 23:05:02",
+      "short_template_seen_in_train": 1.0
+    }
+  },
+  "excluded_fields": [
+    "ASSIGNMENT_GROUP (set by the desk; it is the routing target)",
+    "PRIORITY",
+    "STATE",
+    "ESCALATION*",
+    "RELATED_INCIDENT and support-note text",
+    "timestamps after creation",
+    "client code",
+    "CLIENT_SUPPORT tier"
+  ],
+  "not_used": {
+    "Escalation_data_synthetic_v2.xlsx": "escalations happen after the ticket is raised and categorised",
+    "Interface_Catalog.xls": "no ticket text mentions an interface name or spec number"
+  }
+}
