@@ -1,0 +1,60 @@
+subcategory,category
+Cash flow missing,Accounting
+Duplicate transaction,Accounting
+NAV difference,Accounting
+Period close question,Accounting
+Attribution question,Analytics
+Performance figure question,Analytics
+Recalculation request,Analytics
+Risk figure question,Analytics
+Benchmark addition,Benchmark Data
+Benchmark data delay,Benchmark Data
+Constituent query,Benchmark Data
+Field value addition,Configuration
+Screen layout change,Configuration
+Workflow change,Configuration
+File layout change,Data Delivery
+File not received,Data Delivery
+One-off data pull,Data Delivery
+Change request,Implementation
+Go-live readiness,Implementation
+Onboarding milestone,Implementation
+Capital call notice,Investor Services
+Distribution notice,Investor Services
+Document not visible,Investor Services
+Statement query,Investor Services
+Cash balance query,Portfolio Tools
+Holdings mismatch,Portfolio Tools
+Model portfolio question,Portfolio Tools
+What-if analysis question,Portfolio Tools
+New rule request,Pre-Trade Rules
+Rule exception review,Pre-Trade Rules
+Rule result query,Pre-Trade Rules
+Add fund to coverage,Private Markets Data
+Fund report chase,Private Markets Data
+Valuation correction,Private Markets Data
+Break ageing question,Reconciliation
+Cash break,Reconciliation
+Position break,Reconciliation
+Corporate event query,Reference Data
+Instrument attribute correction,Reference Data
+New instrument request,Reference Data
+Price query,Reference Data
+Export columns missing,Reporting
+New report request,Reporting
+Report totals incorrect,Reporting
+Scheduled report not received,Reporting
+Allocation query,Trade Workflow
+Order not progressing,Trade Workflow
+Settlement date query,Trade Workflow
+Trade amendment,Trade Workflow
+Documentation request,Training & Guidance
+How-to question,Training & Guidance
+Training session request,Training & Guidance
+New user,User Setup
+Remove user,User Setup
+Role change,User Setup
+User details update,User Setup
+Client account query,Wealth
+Model assignment,Wealth
+Proposal question,Wealth

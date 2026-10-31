@@ -1,0 +1,60 @@
+,category,precision,recall,f1-score,support
+Add fund to coverage,Private Markets Data,1.0,1.0,1.0,56.0
+Allocation query,Trade Workflow,1.0,1.0,1.0,100.0
+Attribution question,Analytics,1.0,1.0,1.0,71.0
+Benchmark addition,Benchmark Data,1.0,1.0,1.0,113.0
+Benchmark data delay,Benchmark Data,1.0,1.0,1.0,86.0
+Break ageing question,Reconciliation,1.0,1.0,1.0,51.0
+Capital call notice,Investor Services,1.0,1.0,1.0,33.0
+Cash balance query,Portfolio Tools,1.0,1.0,1.0,157.0
+Cash break,Reconciliation,1.0,1.0,1.0,88.0
+Cash flow missing,Accounting,1.0,1.0,1.0,71.0
+Change request,Implementation,1.0,1.0,1.0,27.0
+Client account query,Wealth,1.0,1.0,1.0,31.0
+Constituent query,Benchmark Data,1.0,1.0,1.0,59.0
+Corporate event query,Reference Data,1.0,1.0,1.0,108.0
+Distribution notice,Investor Services,1.0,1.0,1.0,46.0
+Document not visible,Investor Services,1.0,1.0,1.0,80.0
+Documentation request,Training & Guidance,1.0,1.0,1.0,34.0
+Duplicate transaction,Accounting,1.0,1.0,1.0,67.0
+Export columns missing,Reporting,1.0,1.0,1.0,49.0
+Field value addition,Configuration,1.0,1.0,1.0,71.0
+File layout change,Data Delivery,1.0,1.0,1.0,58.0
+File not received,Data Delivery,1.0,1.0,1.0,160.0
+Fund report chase,Private Markets Data,1.0,1.0,1.0,55.0
+Go-live readiness,Implementation,1.0,1.0,1.0,21.0
+Holdings mismatch,Portfolio Tools,1.0,1.0,1.0,174.0
+How-to question,Training & Guidance,1.0,1.0,1.0,186.0
+Instrument attribute correction,Reference Data,1.0,1.0,1.0,149.0
+Model assignment,Wealth,1.0,1.0,1.0,29.0
+Model portfolio question,Portfolio Tools,1.0,1.0,1.0,76.0
+NAV difference,Accounting,1.0,1.0,1.0,131.0
+New instrument request,Reference Data,1.0,1.0,1.0,245.0
+New report request,Reporting,1.0,1.0,1.0,77.0
+New rule request,Pre-Trade Rules,1.0,1.0,1.0,74.0
+New user,User Setup,1.0,1.0,1.0,112.0
+Onboarding milestone,Implementation,1.0,1.0,1.0,33.0
+One-off data pull,Data Delivery,1.0,1.0,1.0,66.0
+Order not progressing,Trade Workflow,1.0,1.0,1.0,188.0
+Performance figure question,Analytics,1.0,1.0,1.0,124.0
+Period close question,Accounting,1.0,1.0,1.0,54.0
+Position break,Reconciliation,1.0,1.0,1.0,134.0
+Price query,Reference Data,1.0,1.0,1.0,164.0
+Proposal question,Wealth,1.0,1.0,1.0,41.0
+Recalculation request,Analytics,1.0,1.0,1.0,93.0
+Remove user,User Setup,1.0,1.0,1.0,49.0
+Report totals incorrect,Reporting,1.0,1.0,1.0,104.0
+Risk figure question,Analytics,1.0,1.0,1.0,131.0
+Role change,User Setup,1.0,1.0,1.0,63.0
+Rule exception review,Pre-Trade Rules,1.0,1.0,1.0,40.0
+Rule result query,Pre-Trade Rules,1.0,1.0,1.0,120.0
+Scheduled report not received,Reporting,1.0,1.0,1.0,99.0
+Screen layout change,Configuration,1.0,1.0,1.0,38.0
+Settlement date query,Trade Workflow,1.0,1.0,1.0,55.0
+Statement query,Investor Services,1.0,1.0,1.0,69.0
+Trade amendment,Trade Workflow,1.0,1.0,1.0,89.0
+Training session request,Training & Guidance,1.0,1.0,1.0,23.0
+User details update,User Setup,1.0,1.0,1.0,21.0
+Valuation correction,Private Markets Data,1.0,1.0,1.0,33.0
+What-if analysis question,Portfolio Tools,1.0,1.0,1.0,52.0
+Workflow change,Configuration,1.0,1.0,1.0,60.0

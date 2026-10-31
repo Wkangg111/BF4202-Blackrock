@@ -1,0 +1,2 @@
+encoder,temperature,threshold,oof_accuracy_all,oof_coverage_at_threshold,oof_accuracy_at_threshold
+tfidf,0.061379674903505065,0.0,0.9834037267080745,1.0,0.9834037267080745

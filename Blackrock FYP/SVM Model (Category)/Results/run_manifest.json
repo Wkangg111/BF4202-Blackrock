@@ -1,0 +1,41 @@
+{
+  "task": "ticket subcategory (59) -> category (17) classification",
+  "ENCODER_BACKEND": "MiniLM SKIPPED (TF-IDF baseline only)",
+  "encoder_message": "sentence-transformers not importable (ModuleNotFoundError: No module named 'sentence_transformers')",
+  "encoders_run": [
+    "tfidf"
+  ],
+  "deployed_encoder": "tfidf",
+  "selected_hyperparameters": {
+    "tfidf": {
+      "C": 0.03,
+      "class_weight": null
+    }
+  },
+  "auto_route_thresholds": {
+    "tfidf": 0.0
+  },
+  "temperatures": {
+    "tfidf": 0.061379674903505065
+  },
+  "target_auto_route_accuracy": 0.98,
+  "seed": 42,
+  "selection": "C and class_weight by validation subcategory macro-F1; encoder by unseen-wording CV on train+validation",
+  "versions": {
+    "sentence-transformers": null,
+    "transformers": null,
+    "torch": null,
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "python": "3.13.17",
+  "limitations": [
+    "synthetic data",
+    "heavily templated text (200 short-description templates)",
+    "labels assumed correct",
+    "MiniLM-L6 is English-only; Japanese bodies rely on the English short description"
+  ]
+}
